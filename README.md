@@ -1,7 +1,7 @@
 # MyFXBookClient
 
 ### Information
-> **Version:** 2.0.1\
+> **Version:** 2.0.3\
 > **Author:** Web Developer Igor P.\
 > **Author URI:** <https://www.upwork.com/freelancers/~010854a54a1811f970>\
 > **Description:** The WordPress plugin, which builds charts/graphs using the data from  API <https://www.myfxbook.com/api>
@@ -9,7 +9,7 @@
 ### Usages
 After installation you can use short code **myfxbook** to integrate chats into your content.
 ```text
-[myfxbook [attributes ...]]
+[myfxbook-client [attributes ...]]
 ```
 
 ### Allowable attributes:
