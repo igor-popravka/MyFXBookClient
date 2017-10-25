@@ -1,9 +1,9 @@
 # MyFXBookClient
 
 ### Information
-> **Version:** 2.0.3\
-> **Author:** Web Developer Igor P.\
-> **Author URI:** <https://www.upwork.com/freelancers/~010854a54a1811f970>\
+> **Version:** 2.0.4<br/>
+> **Author:** Web Developer Igor P.<br/>
+> **Author URI:** <https://www.upwork.com/freelancers/~010854a54a1811f970><br/>
 > **Description:** The WordPress plugin, which builds charts/graphs using the data from  API <https://www.myfxbook.com/api>
 
 ### Usages
@@ -25,6 +25,7 @@ After installation you can use short code **myfxbook** to integrate chats into y
 * **total-growth** - Line chart which display full growth data for selected accounts
 * **monthly-gain-loss** - Column chart which display gain/loss data for selected accounts
 * **calculator-form** - Form which calculate growth using the history growth of the selected accounts
+* **month-growth-table** - Table which displays growth month by month for the selected accounts
 
 ### Example:
 ```text
