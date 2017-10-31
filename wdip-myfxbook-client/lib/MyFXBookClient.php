@@ -67,13 +67,19 @@ class MyFXBookClient {
         if ($attributes->has('accountid') && $attributes->has('charttype')) {
             switch ($attributes->charttype) {
                 case self::TYPE_MONTH_GROWTH:
+                    $options = new MonthGrowthOptions($attributes);
+                    $content .= Viewer::instance()->render('myfxbook-chart', $options);
+                    break;
                 case self::TYPE_TOTAL_GROWTH:
+                    $options = new TotalGrowthOptions($attributes);
+                    $content .= Viewer::instance()->render('myfxbook-chart', $options);
+                    break;
                 case self::TYPE_MONTHLY_GAIN_LOSS:
-                    $options = new ChartOptions($attributes);
+                    $options = new MonthlyGainLossOptions($attributes);
                     $content .= Viewer::instance()->render('myfxbook-chart', $options);
                     break;
                 case self::TYPE_CALCULATOR_FORM:
-                    $options = new ChartOptions($attributes);
+                    $options = new CalculatorFormOptions($attributes);
                     $content .= Viewer::instance()->render('calculator-form', $options);
                     break;
                 case self::TYPE_MONTH_GROWTH_TABLE:
