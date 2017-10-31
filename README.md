@@ -1,7 +1,7 @@
 # MyFXBookClient
 
 ### Information
-> **Version:** 2.0.6<br/>
+> **Version:** 2.0.7<br/>
 > **Author:** Web Developer Igor P.<br/>
 > **Author URI:** <https://www.upwork.com/freelancers/~010854a54a1811f970><br/>
 > **Description:** The WordPress plugin, which builds charts/graphs using the data from  API <https://www.myfxbook.com/api>
