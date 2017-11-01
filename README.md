@@ -2,7 +2,7 @@
 
 ### Information
 > **Version:** 2.0.12<br/>
-> **Author:** Web Developer Igor P.<br/>
+> **Author:** Igor Popravka<br/>
 > **Author URI:** <https://www.upwork.com/freelancers/~010854a54a1811f970><br/>
 > **Description:** The WordPress plugin, which builds charts/graphs using the data from  API <https://www.myfxbook.com/api>
 
@@ -29,5 +29,5 @@ After installation you can use short code **myfxbook** to integrate chats into y
 
 ### Example:
 ```text
-[myfxbook accountID="123123,345345" chartType="month-growth" backgroundColor="#FFFFFF"]
+[myfxbook-client accountID="123123,345345" chartType="month-growth" backgroundColor="#FFFFFF"]
 ```
