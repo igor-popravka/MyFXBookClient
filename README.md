@@ -25,7 +25,7 @@ After installation you can use next short-codes **myfxbook-client** or **fxblue-
 * **fee (_optional_)** - _List of fee that are separated by a comma. Usage only with **[calculator-form]** type of the chart_
 * **defaultCells (_optional_)** - _The list of the values of the table cells which will be replaced the default value if has the N/A value. Usage only with **[month-growth-table]** type of the chart_
 
-######Format of the attribute "defaultCells":
+###### Format of the attribute "defaultCells":
 ```text
 defaultCells="APR:2015=12.5,MAY:2016=4", where
 ------------------------------------------------
