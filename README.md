@@ -1,7 +1,7 @@
 # FX-Service Client
 
 ### Information
-> **Version:** 2.1.1<br/>
+> **Version:** 2.1.12<br/>
 > **Author:** Igor Popravka<br/>
 > **Author URI:** <https://www.upwork.com/freelancers/~010854a54a1811f970><br/>
 > **Description:** The WordPress plugin, which builds Charts/Graphs/Tables using the data from API of the FX-Service Clients: [<a href="https://www.myfxbook.com/api">MYFXBook</a>] [<a href="https://www.fxblue.com">FXBlue Client</a>]
@@ -17,13 +17,13 @@ After installation you can use next short-codes **myfxbook-client** or **fxblue-
 ```
 
 ### Allowable attributes for the _'myfxbook-client'_ short-code:
-* **accountID (_required_)** - _List of account IDs that are separated by a comma_
-* **chartType (_required_)** - _Type of the chart that will build on a page_
-* **backgroundColor (_optional_)** - _Color identifier for chart background_
-* **gridLineColor (_optional_)** - _Color identifier for grid line of a chart_
+* **account-id (_required_)** - _List of account IDs that are separated by a comma_
+* **chart-type (_required_)** - _Type of the chart that will build on a page_
+* **background-color (_optional_)** - _Color identifier for chart background_
+* **grid-line-color (_optional_)** - _Color identifier for grid line of a chart_
 * **title (_optional_)** - _Title of a chart_
-* **fee (_optional_)** - _List of fee that are separated by a comma. Usage only with **[calculator-form]** type of the chart_
-* **defaultCells (_optional_)** - _The list of the values of the table cells which will be replaced the default value if has the N/A value. Usage only with **[month-growth-table]** type of the chart_
+* **fee-list (_optional_)** - _List of fee that are separated by a comma. Usage only with **[calculator-form]** type of the chart_
+* **default-cells (_optional_)** - _The list of the values of the table cells which will be replaced the default value if has the N/A value. Usage only with **[month-growth-table]** type of the chart_
 
 ###### Format of the attribute "defaultCells":
 ```text
@@ -43,9 +43,9 @@ defaultCells="APR:2015=12.5,MAY:2016=4", where
 * **month-growth-table** - Table which displays growth month by month for the selected accounts
 
 ### Allowable attributes for the _'fxblue-client'_ short-code:
-* **chartType (_required_)** - _Type of the chart that will build on a page_
-* **backgroundColor (_optional_)** - _Color identifier for chart background_
-* **gridLineColor (_optional_)** - _Color identifier for grid line of a chart_
+* **chart-type (_required_)** - _Type of the chart that will build on a page_
+* **background-color (_optional_)** - _Color identifier for chart background_
+* **grid-line-color (_optional_)** - _Color identifier for grid line of a chart_
 * **title (_optional_)** - _Title of a chart_
 
 ### Allowable _'chartType'_ values for the _'fxblue-client'_ short-code:
@@ -56,10 +56,10 @@ defaultCells="APR:2015=12.5,MAY:2016=4", where
 
 ### Example 1: use _'myfxbook-client'_ short-code:
 ```text
-[myfxbook-client accountID="123123,345345" chartType="month-growth" backgroundColor="#FFFFFF"]
+[myfxbook-client account-id="123123,345345" chart-type="month-growth" background-color="#FFFFFF"]
 ```
 
 ### Example 2: use _'fxblue-client'_ short-code:
 ```text
-[fxblue-client chartType="cumulative-pips" backgroundColor="#FFFFFF"]
+[fxblue-client chart-type="cumulative-pips" background-color="#FFFFFF"]
 ```
