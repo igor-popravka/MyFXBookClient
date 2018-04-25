@@ -1,0 +1,144 @@
+.fxservice-calculator {
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    border: solid 1px;
+}
+
+.fxservice-calculator .data-panel {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px;
+}
+
+.fxservice-calculator .data-panel .control-grope {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.fxservice-calculator .data-panel .control-grope input {
+    border: 1px solid #ccc;
+    color: #666;
+    padding: 3px 6px;
+    width: 120px;
+    height: 28px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.fxservice-calculator .data-panel .control-grope select {
+    border: 1px solid #ccc;
+    color: #666;
+    padding: 3px 6px;
+    width: 120px;
+    height: 28px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.fxservice-calculator .data-panel .control-grope label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.fxservice-calculator .data-panel .button-grope {
+    display: inline-block;
+    float: right;
+    margin: 20px 0 0 5px;
+}
+
+.fxservice-calculator .data-panel .valid-error {
+    border-color: red !important;
+}
+
+.fxservice-calculator .data-panel .button-grope input {
+    height: 28px;
+    padding: 3px 10px;
+    margin: 0;
+}
+
+.fxservice-calculator .chart-panel {
+    min-height: 200px;
+    background: none;
+    color: #ccc;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fxservice-calculator .response-panel {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: solid 1px;
+}
+
+.fxservice-calculator .response-panel .control-grope {
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.fxservice-calculator .response-panel .border-right {
+    border-right: 1px solid #ccc;
+}
+
+.fxservice-calculator .response-panel .control-grope .control-item {
+    display: inline-block;
+}
+
+.fxservice-calculator .response-panel .control-grope .control-item.role-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.fxservice-calculator .response-panel .control-grope .control-item.role-text.down-amount {
+    color: #a94442;
+}
+
+.fxservice-calculator .response-panel .control-grope .control-item.role-text.up-amount {
+    color: darkgreen;
+}
+
+.spinner {
+    background: url('/wp-admin/images/wpspin_light-2x.gif') no-repeat;
+    background-size: 32px 32px;
+    display: none;
+    opacity: .6;
+    filter: alpha(opacity=70);
+    width: 32px;
+    height: 32px;
+}
+
+.fxservice-calculator .chart-panel a.ui-tabs-anchor {
+    color: #1E87AA!important;
+    padding: 7px 30px !important
+}
+
+.fxservice-calculator .chart-panel.ui-tabs {
+    margin: 0!important;
+}
+
+.fxservice-calculator .chart-panel.ui-tabs .ui-tabs-panel{
+    padding: 15px 0 0 0!important;
+}
+
+.fxservice-calculator .chart-panel.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left!important;
+    position: relative;
+    top: 0;
+    margin: 1px .2em 0 0;
+    padding: 0;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.fxservice-calculator .chart-panel li.ui-tabs-active.ui-state-active{
+    background: #1E87AA!important;
+}
+
+.fxservice-calculator .chart-panel li.ui-tabs-active.ui-state-active a.ui-tabs-anchor{
+    color: #ffffff!important;
+}
