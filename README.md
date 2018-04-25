@@ -1,7 +1,7 @@
 # FX-Service Client
 
 ### Information
-> **Version:** 2.1.12<br/>
+> **Version:** 2.2.12<br/>
 > **Author:** Igor Popravka<br/>
 > **Author URI:** <https://www.upwork.com/freelancers/~010854a54a1811f970><br/>
 > **Description:** The WordPress plugin, which builds Charts/Graphs/Tables using the data from API of the FX-Service Clients: [<a href="https://www.myfxbook.com/api">MYFXBook</a>] [<a href="https://www.fxblue.com">FXBlue Client</a>]
